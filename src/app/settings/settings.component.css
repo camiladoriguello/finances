@@ -1,0 +1,25 @@
+h1{
+    color: #E1E8ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+div#settings {
+    border: 1px solid #8a2be2;
+    border-radius: 20px;
+    margin: 30px;
+    margin-left: 470px;
+    width: 425px;
+    padding: 20px;
+    height: 500px;
+}
+
+p{
+    color: #E1E8ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-top: 90px;    
+}

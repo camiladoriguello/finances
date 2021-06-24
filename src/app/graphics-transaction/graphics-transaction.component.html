@@ -1,0 +1,16 @@
+<div id="graphic-transaction">
+
+    <h1>Receitas e despesas: 📊</h1>
+
+    <div id="div-graphics">
+        <div class="transaction-graphic">
+            <div class="graphic" id="income" [ngStyle] = "{ 'height.px' : incrementGraphicIncomes() }"> {{percentageIncomes}} </div>
+            <p>receitas</p>
+        </div>
+        <div class="transaction-graphic">
+            <div class="graphic" id="expense" [ngStyle] = "{ 'height.px' : incrementGraphicExpenses() }"></div>
+            <p>despesas</p>
+        </div>
+    </div>
+    
+</div>

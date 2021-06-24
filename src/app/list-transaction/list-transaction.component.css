@@ -1,0 +1,44 @@
+h1{
+    color: #E1E8ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+div#list-transaction {
+    border: 1px solid #8a2be2;
+    border-radius: 20px;
+    margin: 30px;
+    margin-left: 470px;
+    width: 425px;
+    padding: 20px;
+    height: 500px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 425px;
+}
+
+table#table-extract th{
+    color: #E1E8ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-bottom: solid 1px #E1E8ED;
+    width: 25%;
+}
+
+table#table-extract td{
+    color: #E1E8ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    font-size: 12px;
+    width: 25%;
+    padding-top: 15px;
+}
+
+td.t-desc{
+    text-align: left;
+}

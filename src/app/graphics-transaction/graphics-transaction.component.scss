@@ -1,0 +1,50 @@
+h1{
+    color: #E1E8ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+div#graphic-transaction {
+    border: 1px solid #8a2be2;
+    border-radius: 20px;
+    margin: 30px;
+    margin-left: 470px;
+    width: 425px;
+    height: 500px;
+}
+
+div#div-graphics{
+    width: 425px;
+}
+
+div.transaction-graphic{
+    background-color: black;
+    width: 150px;
+    height: 400px;
+    margin: 15px 31.25px 0px 31.25px;
+    display: inline-block;
+}
+
+div.graphic{
+    width: 150px;
+    position: absolute;
+}
+ 
+div#income{
+    background-color: #3CB371;
+}
+
+div#expense{
+    background-color: #FF6347;
+}
+
+p{
+    color: #E1E8ED;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+}

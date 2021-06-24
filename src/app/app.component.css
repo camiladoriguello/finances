@@ -1,0 +1,39 @@
+div#div-menu{
+    width: 100%;
+    background-color: #212529;
+}
+
+#div-menu ul{
+    list-style: none;
+    position: relative;
+    font-family: 'Poppins', sans-serif, bold;
+    font-weight: bold;
+}
+
+#app-name{
+    margin-right: 230px;
+}
+
+#div-menu ul li{
+    float: left;
+    padding: 25px;
+}
+
+#div-menu a {
+    color: #E1E8ED;
+    transition: .6s;
+    text-decoration: none;
+}
+
+#div-menu a:hover {
+    color: #8a2be2;
+    transition: .2s;
+}
+
+nav{
+    width: 100%;
+}
+
+nav#nav-body{
+    float: left;
+}

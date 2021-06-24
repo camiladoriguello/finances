@@ -1,0 +1,24 @@
+<div id="list-transaction">
+
+    <h1>Ultimos lançamentos: 📃</h1>
+
+    <table id="table-extract">
+        <thead>
+            <tr>
+                <th class="t-date">data</th>
+                <th class="t-desc">descrição</th>
+                <th class="t-value">valor</th>
+                <th class="t-type">tipo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor='let transaction of transactions'>
+                <td class="t-date">{{ transaction.paymentDate | date: 'dd/MM/yyyy'}}</td>
+                <td class="t-desc">{{ transaction.transactionDesc }}</td>
+                <td class="t-value">{{ transaction.transactionValue }}</td>
+                <td class="t-type">{{ transaction.transactionType }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

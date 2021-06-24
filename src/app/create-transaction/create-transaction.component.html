@@ -1,0 +1,32 @@
+<div id="add-transaction">
+
+    <h1>Novo lançamento: 📌</h1>
+
+    <form #transactionForm (ngSubmit)="saveTransaction(transactionForm)">
+        <div class="div-data">
+            <label for="transactionType">Tipo</label>
+            <select id="transactionType" class="select-data" name="transactionType" #transactionType [(ngModel)] = "newTransaction.transactionType" required>
+                <option>🔴 despesa</option>
+                <option>🟢 receita</option>
+            </select>
+        </div>
+
+        <div class="div-data">
+            <label for="transactionDesc">Descrição</label>
+            <input type="text" id="transactionDesc" class="input-data" name="transactionDesc" #transactionDesc [(ngModel)] = "newTransaction.transactionDesc" required minlength="1">
+        </div>
+
+        <div class="div-data">
+            <label for="paymentDate">Data de pagamento</label>
+            <input type="date" id="paymentDate" class="input-data" name="paymentDate" #paymentDate [(ngModel)] = "newTransaction.paymentDate" required>
+        </div>
+
+        <div class="div-data">
+            <label for="transactionValue">Valor</label>
+            <input type="text" id="transactionValue" class="input-data" name="transactionValue" #transactionValue [(ngModel)] = "newTransaction.transactionValue" required>
+        </div>
+
+        <input type="submit" id="save-btn" value="✔">
+    </form>
+
+</div>
